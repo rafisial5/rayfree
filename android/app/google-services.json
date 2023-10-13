@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "506672951718",
+    "project_id": "rayfree-toll",
+    "storage_bucket": "rayfree-toll.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506672951718:android:7a7254c1c635f54ad65f67",
+        "android_client_info": {
+          "package_name": "com.example.rayfree_toll"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNxsIwpcdKDU6GDzLzuOyhA13qPJ1Zemo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
