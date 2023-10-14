@@ -1,4 +1,3 @@
-
 import 'package:get/get.dart';
 import 'package:rayfree_toll/utils/bindings.dart';
 import 'package:rayfree_toll/utils/constants.dart';
@@ -14,16 +13,16 @@ import 'package:rayfree_toll/view/toll_user_screens/collect_tax_screen.dart';
 import 'package:rayfree_toll/view/toll_user_screens/record_of_vehicle_screen.dart';
 import 'package:rayfree_toll/view/toll_user_screens/toll_dashboard_screen.dart';
 
-import '../view/car_owner_screens/create_account_screen.dart';
 import '../view/car_owner_screens/transaction_screen.dart';
+import '../view/initials/signup/create_account_screen.dart';
 
 class RouteManagement {
-  static List<GetPage> getPages(){
-    return[
+  static List<GetPage> getPages() {
+    return [
       GetPage(
-        name: kSelectCarOrTollScreenRoute,
-        page: () =>  const SelectCarOrTollScreen(),
-        binding: ScreenBindings()),
+          name: kSelectCarOrTollScreenRoute,
+          page: () => const SelectCarOrTollScreen(),
+          binding: ScreenBindings()),
       GetPage(
           name: kCarOwnerLoginScreenRoute,
           page: () => const CarOwnerLoginScreen(),
@@ -46,31 +45,31 @@ class RouteManagement {
           binding: ScreenBindings()),
       GetPage(
           name: kTransactionScreenRoute,
-          page: () =>  const TransactionScreen(),
+          page: () => const TransactionScreen(),
           binding: ScreenBindings()),
       GetPage(
           name: kPaidTollScreenRoute,
-          page: () =>  const PaidTollScreen(),
+          page: () => const PaidTollScreen(),
           binding: ScreenBindings()),
       GetPage(
           name: kTollLocationScreenRoute,
-          page: () =>  const TollLocationScreen(),
+          page: () => const TollLocationScreen(),
           binding: ScreenBindings()),
       GetPage(
           name: kTollDashboardScreenRoute,
-          page: () =>   const TollDashboardScreen(),
+          page: () => const TollDashboardScreen(),
           binding: ScreenBindings()),
       GetPage(
           name: kCollectTaxScreenRoute,
-          page: () =>   const CollectTaxScreen(),
+          page: () => const CollectTaxScreen(),
           binding: ScreenBindings()),
       GetPage(
           name: kRecordOfVehicleScreenRoute,
-          page: () =>   const RecordOfVehicleScreen(),
+          page: () => const RecordOfVehicleScreen(),
           binding: ScreenBindings()),
       GetPage(
           name: kCreateAccountScreeenRoute,
-          page: () =>    CreateAccountScreen(),
+          page: () => const CreateAccountScreen(),
           binding: ScreenBindings()),
     ];
   }
